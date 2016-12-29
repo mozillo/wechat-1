@@ -42,9 +42,9 @@ module ActionController
     end
   end
 
-  if defined? API
-    class << API
-      include WechatResponder
-    end
-  end
+#   if defined? API
+#     class << API
+#       include WechatResponder
+#     end
+#   end
 end
